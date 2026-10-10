@@ -55,14 +55,3 @@ fila["hora"] = 7; fila["dia_semana"] = 1; fila["llueve"] = 1
 fila["temperatura_c"] = 14.0; fila["buses_por_hora"] = 12
 fila["estacion_Portal Norte"] = 1; fila["linea_B1"] = 1; fila["zona_portal"] = 1
 print(modelo.predict(fila)[0])   # -> alto
-```
-
-## Trabajo en equipo con Git
-
-El log del repositorio debe mostrar el aporte de cada integrante, así que **cada uno debe hacer sus propios commits desde su cuenta**. Sugerencia de reparto:
-
-- Integrante 1: `generar_dataset.py`, `DESCRIPCION_DATOS.md`
-- Integrante 2: `modelo_arbol_decision.py`, `requirements.txt`
-- Integrante 3: `pruebas_modelo.py`, `PRUEBAS.md`, `GUION_VIDEO.md`
-
-Cada quien trabaja en su rama, hace `git commit -m "mensaje claro"`, abre un *pull request* y lo fusionan en `main`. No olviden agregar a la docente como colaboradora del repositorio (Settings → Collaborators / Project members).
