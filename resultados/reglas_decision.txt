@@ -1,0 +1,85 @@
+|--- es_fin_de_semana <= 0.50
+|   |--- hora <= 20.50
+|   |   |--- linea_D1 <= 0.50
+|   |   |   |--- hora <= 8.50
+|   |   |   |   |--- hora <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- hora >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- hora >  8.50
+|   |   |   |   |--- hora <= 16.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- hora >  16.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- linea_D1 >  0.50
+|   |   |   |--- hora <= 8.50
+|   |   |   |   |--- hora <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- hora >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- hora >  8.50
+|   |   |   |   |--- hora <= 16.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- hora >  16.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |--- hora >  20.50
+|   |   |--- evento_especial <= 0.50
+|   |   |   |--- llueve <= 0.50
+|   |   |   |   |--- buses_por_hora <= 18.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- buses_por_hora >  18.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- llueve >  0.50
+|   |   |   |   |--- zona_norte <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- zona_norte >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- evento_especial >  0.50
+|   |   |   |--- buses_por_hora <= 25.50
+|   |   |   |   |--- buses_por_hora <= 14.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- buses_por_hora >  14.50
+|   |   |   |   |   |--- class: alto
+|   |   |   |--- buses_por_hora >  25.50
+|   |   |   |   |--- class: medio
+|--- es_fin_de_semana >  0.50
+|   |--- hora <= 19.50
+|   |   |--- hora <= 16.50
+|   |   |   |--- hora <= 8.50
+|   |   |   |   |--- hora <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- hora >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- hora >  8.50
+|   |   |   |   |--- evento_especial <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- evento_especial >  0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- hora >  16.50
+|   |   |   |--- zona_centro <= 0.50
+|   |   |   |   |--- zona_norte <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- zona_norte >  0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- zona_centro >  0.50
+|   |   |   |   |--- buses_por_hora <= 39.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- buses_por_hora >  39.50
+|   |   |   |   |   |--- class: medio
+|   |--- hora >  19.50
+|   |   |--- llueve <= 0.50
+|   |   |   |--- evento_especial <= 0.50
+|   |   |   |   |--- class: bajo
+|   |   |   |--- evento_especial >  0.50
+|   |   |   |   |--- zona_centro <= 0.50
+|   |   |   |   |   |--- class: bajo
+|   |   |   |   |--- zona_centro >  0.50
+|   |   |   |   |   |--- class: medio
+|   |   |--- llueve >  0.50
+|   |   |   |--- hora <= 20.50
+|   |   |   |   |--- linea_B2 <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- linea_B2 >  0.50
+|   |   |   |   |   |--- class: medio
+|   |   |   |--- hora >  20.50
+|   |   |   |   |--- class: bajo

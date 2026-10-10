@@ -1,0 +1,23 @@
+test_01_tiene_columnas_esperadas (pruebas_modelo.PruebasDataset.test_01_tiene_columnas_esperadas) ... ok
+test_02_tamano_minimo (pruebas_modelo.PruebasDataset.test_02_tamano_minimo) ... ok
+test_03_estaciones_y_lineas_del_proyecto (pruebas_modelo.PruebasDataset.test_03_estaciones_y_lineas_del_proyecto) ... ok
+test_04_rangos_validos (pruebas_modelo.PruebasDataset.test_04_rangos_validos) ... ok
+test_05_clases_validas_y_balance_razonable (pruebas_modelo.PruebasDataset.test_05_clases_validas_y_balance_razonable) ... ok
+test_06_etiqueta_consistente_con_ocupacion (pruebas_modelo.PruebasDataset.test_06_etiqueta_consistente_con_ocupacion) ... ok
+test_07_faltantes_controlados (pruebas_modelo.PruebasDataset.test_07_faltantes_controlados) ... ok
+test_08_exactitud_supera_al_modelo_base (pruebas_modelo.PruebasModelo.test_08_exactitud_supera_al_modelo_base) ... ok
+test_09_exactitud_minima_aceptable (pruebas_modelo.PruebasModelo.test_09_exactitud_minima_aceptable) ... ok
+test_10_sin_sobreajuste_grave (pruebas_modelo.PruebasModelo.test_10_sin_sobreajuste_grave) ... ok
+test_11_prediccion_devuelve_clase_valida (pruebas_modelo.PruebasModelo.test_11_prediccion_devuelve_clase_valida) ... ok
+test_12_hora_pico_manana_en_portal_es_alta (pruebas_modelo.PruebasModelo.test_12_hora_pico_manana_en_portal_es_alta) ... ok
+test_13_domingo_en_la_noche_es_bajo (pruebas_modelo.PruebasModelo.test_13_domingo_en_la_noche_es_bajo) ... ok
+test_14_mas_buses_no_aumenta_la_ocupacion (pruebas_modelo.PruebasModelo.test_14_mas_buses_no_aumenta_la_ocupacion)
+Con todo lo demás igual, más oferta de buses no debe empeorar el nivel. ... ok
+test_15_hora_es_la_variable_mas_importante (pruebas_modelo.PruebasModelo.test_15_hora_es_la_variable_mas_importante) ... ok
+test_16_reproducibilidad_del_dataset (pruebas_modelo.PruebasModelo.test_16_reproducibilidad_del_dataset)
+Con la misma semilla el generador produce el mismo conjunto de datos. ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.099s
+
+OK

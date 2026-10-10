@@ -1,0 +1,14 @@
+{
+  "mejores_hiperparametros": {
+    "criterion": "entropy",
+    "max_depth": 10,
+    "min_samples_leaf": 1
+  },
+  "exactitud_cv_gridsearch": 0.8256,
+  "exactitud_prueba": 0.8336,
+  "exactitud_modelo_base": 0.344,
+  "cv5_media": 0.834,
+  "cv5_desv": 0.0083,
+  "profundidad_arbol": 10,
+  "numero_hojas": 228
+}
